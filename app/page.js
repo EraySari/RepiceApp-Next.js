@@ -4,6 +4,8 @@ import ImageSlideShow from "@/components/images/image-slideshow";
 export default function Home() {
   return (
     <>
+      {/* //next js kodu serverda calistirip client tarafa sadece html kodlarini
+      gönderir is yükü azalir */}
       <header className={styles.header}>
         <div className={styles.slideshow}>
           <ImageSlideShow />
@@ -21,7 +23,6 @@ export default function Home() {
           </div>
         </div>
       </header>
-
       <main>
         <section className={styles.section}>
           <h2>How it works</h2>
